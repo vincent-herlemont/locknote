@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## LockNote
 
-## Getting Started
+Proton Mail Front-end Exercises : https://gist.github.com/mmso/9097e36918084fa8ab3b0bb823327201
 
-First, run the development server:
+Build with (main framework and libraries) :
+- [NextJS](https://nextjs.org/)
+- [ReactJS](https://reactjs.org/)
+- [Styled-components](https://styled-components.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
+## Getting Started 
+
+Install
+```
+npm install 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run (dev)
+```
+npm run dev
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Encryption mock
 
-## Learn More
+You can find the code encryption mock given in exercises statements [./utils/encryption.js](./utils/encryption.js).
+It is used for simulating the real encryption but do not do it for real.
 
-To learn more about Next.js, take a look at the following resources:
+## Storage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## Lib
-
-https://github.com/bitcoinjs/bs58check - A straight forward implementation of base58check extending upon bs58.
-
-https://github.com/kjur/jsrsasign  - The 'jsrsasign' (RSA-Sign JavaScript Library) is an opensource free cryptography library supporting RSA/RSAPSS/ECDSA/DSA signing/validation, ASN.1, PKCS#1/5/8 private/public key, X.509 certificate, CRL, OCSP, CMS SignedData, TimeStamp, CAdES JSON Web Signature/Token in pure JavaScript.
+There is no local or backend storage implemented, all the app is on memory.
+However, that can be implemented easily.
